@@ -1,0 +1,67 @@
+/* cabeçalho/header */
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #040c13;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+/* centralizar a barra de pesquisa */
+.pesquisa {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 auto;
+}
+/* estilizar a barra de pesquisa */
+.pesquisa input[type="text"] {
+    width: 450px;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    transition: 0.3ms;
+}
+/* borda da barra de pesquisa */
+.pesquisa input[type="text"]:focus {
+    outline-color: #2ecc71;
+}
+/* estilizar o botão de busca */
+.pesquisa input[type="submit"] {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #2ecc71;
+    transition: 0.3ms;
+}
+/* estilizar o botão de busca ao passar o mouse */
+.pesquisa input[type="submit"]:hover {
+    background-color: #1a6d3c;
+}
+/* botão de login*/
+#login {
+    font-size: 16px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #040c13;
+    color: white;
+    transition: 0.3ms;
+}
+/*efeito no botão de login*/
+#login:hover {
+    background-color: #000000;
+}
+/*logo*/
+#logo{
+    width: 100px;
+}
+/* corpo da página */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0; 
+}
