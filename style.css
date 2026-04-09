@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fafaee;
+  color: #fff;
+}
+
+/* TOPINHO */
+.hero {
+  background: url("https://images.unsplash.com/photo-1509440159596-0249088772ff");
+  background-size: cover;
+  padding: 30px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* CARD DA PADARIA */
+.store-card {
+  background: #f8f5e9;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.store-left h1 {
+  color: #b87654;
+}
+
+.store-left p {
+  margin: 10px 0;
+  color: #494113;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.store-right {
+  text-align: right;
+  color:#494113;
+}
+
+.status {
+  color: #02d371;
+}
+
+/* FILTRO */
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+
+.filters input,
+.filters select {
+  background-color:whitesmoke;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+/* TÍTULO */
+.title {
+  margin-bottom: 20px;
+  color: #494113;
+}
+
+/* PAOZINHOS */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+  gap: 50px;
+}
+
+/* CARD PRODUTO */
+.card {
+  background: #eeeed9;
+  padding: 10px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  border-radius: 8px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.card h3 {
+  color:#494113;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.card p {
+  color: #000000;
+}
+
+footer {
+  background-color: #494113;
+  margin-top: 100px;
+  text-align: center;
+  padding: 30px;
+}
+
+.footer p {
+  font-family:"ratio-modern", serif;
+}
