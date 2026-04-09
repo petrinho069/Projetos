@@ -75,6 +75,17 @@ body{
     margin: 0; 
 }
 
+.linha {
+    margin-bottom: 3rem;  /* espaço entre uma linha e outra */
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.linha h2 {
+  margin-bottom: 1.5rem;  /* espaço entre o título e os cards */
+}
+
 /*transforma os produtos em cards clicaveis*/
 .produto {
     display: block;
