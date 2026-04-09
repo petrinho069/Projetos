@@ -103,7 +103,7 @@ body {
 
 .card img {
   border-radius: 8px;
-  height: 120px;
+  height: 100px;
   object-fit: cover;
 }
 
